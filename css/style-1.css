@@ -82,3 +82,25 @@ th {
 .riga-evidenziata {
     background-color: rgb(162, 225, 245);
 }
+
+.img-text {
+    width: 312px;
+    height: 208px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.img-text img {
+    
+}
+
+.didascalia {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 1.8em;
+    color: aliceblue;
+
+}
