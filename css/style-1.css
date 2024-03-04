@@ -1,12 +1,18 @@
 * {
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
 }
 
 header {
     height: 100px;
     background-image: url(pattern.png);
     background-size: contain;
-    background-color: rgb(68, 176, 219);
+    background-color: rgb(43, 169, 219);
     position: relative;
 }
 
@@ -14,5 +20,39 @@ header {
     width: 15%;
     position: absolute;
     bottom: 5px;
+    padding: 5px;
+}
+
+main{
+    padding: 5px;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#autor {
+    color: rgb(43, 169, 219);
+}
+
+.title {
+    height: 100%;
+    background-color: 
+}
+
+.write {
+    color: lightslategray;
+    font-size: 20px;
+}
+
+.data-title {
+    color: lightslategray;
+    font-size: 15px;
+
+}
+
+.img-main {
     padding: 10px;
 }
