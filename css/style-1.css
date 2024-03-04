@@ -59,3 +59,26 @@ h1 {
 ul {
     padding: 20px;
 }
+
+thead {
+    background-color: rgb(21, 145, 218);
+}
+
+table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+    text-align: left;
+    font-size: medium;
+}
+
+th {
+    color: white;
+    font-size: large;
+}
+
+.riga-evidenziata {
+    background-color: rgb(162, 225, 245);
+}
